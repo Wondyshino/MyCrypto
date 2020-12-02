@@ -11,9 +11,11 @@ import {
   isValidTransactionByHash,
   isValidTransactionCount,
   isValidTransactionReceipt
-} from '@services/EthService';
+} from '@services/EthService/validators';
 import { Asset, IHexStrTransaction, INode, TxObj } from '@types';
-import { hexToNumber, stripHexPrefix, TokenValue, Wei } from '@utils';
+import { hexToNumber } from '@utils/formatters';
+import { stripHexPrefix } from '@utils/stripHexPrefix';
+import { TokenValue, Wei } from '@utils/units';
 
 import { RPCClient } from './client';
 import { RPCRequests } from './requests';

@@ -1,10 +1,10 @@
 import {
   isValidGetAccounts,
   isValidGetNetVersion,
+  isValidRequestPermissions,
   isValidSendTransaction,
   isValidSignMessage
-} from '@services/EthService';
-import { isValidRequestPermissions } from '@services/EthService/validators';
+} from '@services/EthService/validators';
 import { translateRaw } from '@translations';
 import {
   IExposedAccountsPermission,

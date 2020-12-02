@@ -1,6 +1,6 @@
-import { ERC20 } from '@services/EthService';
+import { ERC20 } from '@services/EthService/contracts';
 import { Asset, IHexStrTransaction, TxObj } from '@types';
-import { hexEncodeData } from '@utils';
+import { hexEncodeData } from '@utils/hexEncode';
 
 import { UnlockToken } from '../../contracts';
 import {

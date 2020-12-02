@@ -51,11 +51,9 @@ import {
 import {
   bigNumGasLimitToViewable,
   bigNumGasPriceToViewableGwei,
-  bigNumValueToViewableEther,
-  fromTokenBase,
-  gasPriceToBase,
-  toWei
-} from '@utils';
+  bigNumValueToViewableEther
+} from '@utils/makeTransaction';
+import { fromTokenBase, gasPriceToBase, toWei } from '@utils/units';
 
 import { bigify } from './bigify';
 import { hexToNumber } from './formatters';

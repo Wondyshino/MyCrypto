@@ -16,7 +16,7 @@ import {
 } from '@config';
 import { translateRaw } from '@translations';
 import { InlineMessageType, JsonRPCResponse, Web3RequestPermissionsResponse } from '@types';
-import { baseToConvertedUnit, convertedToBaseUnit, gasStringsToMaxGasBN } from '@utils';
+import { baseToConvertedUnit, convertedToBaseUnit, gasStringsToMaxGasBN } from '@utils/units';
 
 import { isValidENSName } from './ens/validators';
 
